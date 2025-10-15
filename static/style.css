@@ -1,0 +1,84 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body::before {
+  content: "";
+  width: 100%;
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  background: url("./crossfit-1126999.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+nav {
+  background-color: black;
+
+  padding: 3px 12px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style: none;
+  padding: 16px 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #b5b5b5;
+  margin: 12px;
+}
+.container {
+  margin: 20px auto;
+  max-width: 70%;
+}
+input,
+textarea {
+  display: block;
+  padding: 10px 2px;
+  margin: 3px auto;
+  width: 60%;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 19px;
+  background-color: #b8b8b8;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+input::placeholder ,textarea::placeholder {
+    color: white;
+}
+label {
+  text-align: center;
+  color: white;
+  display: none;
+  padding: 2px 2px;
+  margin: 3px auto;
+  width: 60%;
+}
+.btn {
+  display: block;
+  margin: 4px auto;
+  padding: 5px 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: red;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    link(rel="stylesheet", href="../static/style.css")
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a> </li>
+            <li><a href="/">About</a> </li>
+            <li><a href="/">Contact</a> </li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <h1>Get this Gym membership for $50. Fill This form now!</h1>
+        <!-- <p>
+            |#{content}
+            |this is a plain html using pug
+        </p> -->
+        <form action="/" id="contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            
+        <label for="Age">Age:</label>
+        <input type="text" name="Age" id="Age" placeholder="Enter Your Age">
+
+        <label for="gender">Gender:</label>
+        <input type="text" name="Gender" id="gender" placeholder="Enter Your Gender">
+
+        <label for="address">Adress</label>
+        <textarea name="address" id="address" rows="1" placeholder="Enter Your Address"></textarea>
+
+        <label for="more">More</label>
+        <textarea name="more" id="more" cols="20" rows="5" placeholder="More About You"></textarea>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+
+</html>
